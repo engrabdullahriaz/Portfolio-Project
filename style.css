@@ -7,8 +7,9 @@
 body {
   margin: 10px 8px;
   background: transparent;
-  font-family: "Poppins";
-  background-color: #f7f7f9;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  background-color: #fff;
   background-image: url(images/Headerbg.png);
 }
 
@@ -54,11 +55,8 @@ body {
   right: 5px;
   top: 15px;
   margin-top: 15px;
-}
-
-.hamburger:hover {
   background-color: #ddd;
-  color: black;
+  border: none;
 }
 
 .section-wrapper {
@@ -110,7 +108,7 @@ body {
 
 .icon-link:hover {
   cursor: pointer;
-  color: #7f8cff;
+  color: #505f79;
 }
 
 @media only screen and (max-width: 850px) {
