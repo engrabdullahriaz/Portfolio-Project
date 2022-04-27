@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,9 +7,9 @@
 body {
   margin: 10px 8px;
   background: transparent;
-  font-family: 'poppins', sans-serif;
-  font-style: normal;
-  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f7f7f9;
   background-image: url(images/Headerbg.png);
 }
 
@@ -58,6 +58,10 @@ body {
   border: none;
 }
 
+.hamburger:hover {
+  color: black;
+}
+
 .section-wrapper {
   margin-top: 2rem;
   display: flex;
@@ -76,6 +80,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  font-family: "Poppins", sans-serif;
 }
 
 .content-of-section {
@@ -94,11 +99,11 @@ body {
   color: #7f8cff;
 }
 
-.icons {
+.icons-list {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
-  color: #505f79;
+  color: #7f8cff;
   padding: 20px 15px;
   list-style-type: none;
   margin-left: 12px;
@@ -107,7 +112,7 @@ body {
 
 .icon-link:hover {
   cursor: pointer;
-  color: #505f79;
+  color: #7f8cff59;
 }
 
 @media only screen and (max-width: 850px) {
@@ -121,7 +126,7 @@ body {
     display: none;
   }
 
-  .icons {
+  .icons-list {
     margin-left: 8rem;
   }
 }
