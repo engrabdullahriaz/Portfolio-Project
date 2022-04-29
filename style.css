@@ -146,6 +146,7 @@ body {
   height: 40vh;
   margin: 420px 20px;
 }
+
 .container-work2 {
   width: 100%;
   display: grid;
@@ -153,6 +154,7 @@ body {
   height: 40vh;
   margin: 450px 20px;
 }
+
 .container-work3 {
   width: 100%;
   display: grid;
@@ -160,6 +162,7 @@ body {
   height: 40vh;
   margin: 420px 20px;
 }
+
 .card-info {
   display: flex;
   justify-content: space-between;
@@ -195,7 +198,7 @@ body {
   justify-content: right;
   color: #000;
   line-height: 1.5;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
 }
 
 .card-details {
@@ -206,7 +209,6 @@ body {
   list-style-type: none;
   font-weight: 700;
   color: #344563;
-  
 }
 
 .card-first-element {
@@ -220,7 +222,6 @@ body {
   color: lightslategray;
   font-weight: 800;
   font-size: 18px;
-  
 }
 
 .card-third-element {
