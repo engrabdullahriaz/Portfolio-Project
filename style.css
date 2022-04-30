@@ -134,7 +134,7 @@ body {
 .container-work {
   width: 100%;
   display: grid;
-  gap: 4rem;
+  gap: 0rem;
   height: 40vh;
   margin: 5px 20px;
 }
@@ -144,7 +144,7 @@ body {
   display: grid;
   gap: 4rem;
   height: 40vh;
-  margin: 420px 20px;
+  margin: 280px 20px;
 }
 
 .container-work2 {
@@ -152,7 +152,7 @@ body {
   display: grid;
   gap: 4rem;
   height: 40vh;
-  margin: 450px 20px;
+  margin: 300px 20px;
 }
 
 .container-work3 {
@@ -160,14 +160,12 @@ body {
   display: grid;
   gap: 4rem;
   height: 40vh;
-  margin: 420px 20px;
+  margin: 280px 20px;
 }
 
 .card-info {
-  display: flex;
   justify-content: space-between;
   flex-direction: column;
-  gap: 1rem;
   overflow: visible;
 }
 
@@ -197,8 +195,6 @@ body {
   flex-direction: column;
   justify-content: right;
   color: #000;
-  line-height: 1.5;
-  letter-spacing: 1px;
 }
 
 .card-details {
@@ -209,25 +205,27 @@ body {
   list-style-type: none;
   font-weight: 700;
   color: #344563;
+  padding: 0px 0px;
+  margin-top: 0px;
 }
 
 .card-first-element {
-  text-transform: uppercase;
   color: #505f79;
-  font-size: 18px;
+  font-size: 13px;
   font-family: "Poppins", sans-serif;
+  margin: 0px 12px;
 }
 
 .card-second-element {
   color: lightslategray;
-  font-weight: 800;
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
 }
 
 .card-third-element {
   color: lightslategray;
-  font-weight: 800;
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
 }
 
 .circle-icon {
@@ -237,14 +235,13 @@ body {
 
 .card-content {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 20;
   color: #344563;
   max-width: 350px;
-  margin-left: 20px;
 }
 
 .btn-languages {
-  background-color: #a1e3d8;
+  background-color: #EBEBFF;
   border: none;
   text-align: center;
   text-decoration: none;
@@ -255,9 +252,19 @@ body {
   border-radius: 5px;
   justify-content: flex-start;
   align-items: center;
-  padding: 3px 5px;
-}
+  margin-left: 0.1rem;
 
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  padding: 0px;
+}
 .btn-languages:hover {
   background-color: #fff;
 }
@@ -280,8 +287,6 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  width: 10rem;
-  height: 3.2rem;
   display: flex;
   margin-left: 8px;
   border-radius: 12px;
